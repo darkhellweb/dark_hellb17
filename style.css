@@ -1,0 +1,124 @@
+/* إعدادات الصفحة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffde00;  /* لون خلفية مشابه للستينات */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* تصميم الرأس */
+header {
+    background-color: #ff4081; /* لون وردي ساطع */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid white; /* إطار أبيض حول الصورة */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* قسم "عنّي" */
+.about {
+    background-color: #ff80ab; /* لون هادئ مائل للوردي */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* قسم "المهارات" */
+.skills {
+    background-color: #b2ff59; /* لون أخضر فاقع */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* قسم "تواصل معي" */
+.contact {
+    background-color: #ff4081;  /* وردي ساطع */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+.contact ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* التذييل */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
